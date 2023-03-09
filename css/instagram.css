@@ -1,0 +1,45 @@
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+.logo{
+    display:inline-block;
+    background-image: url(../images/gram.png);
+    width:175px;
+    height: 51px;
+    background-position: 0 -52px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border:none;
+    outline:none;
+}
+
+section > div > form{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    border:1px solid #dddfe2;
+    padding: 5px 40px;
+    border-radius: 1px;
+    width:370px ;
+    height: 470px;
+    margin: 0 0 10px;
+    background-color:white;
+}
+section > div > form > input{
+    padding: 15px 15px;
+    border-radius: 4px;
+    color: #8e8e8e;
+    border:1px solid  #dddfe2;
+    font-size: 13px;
+    outline: none;
+}
+
+form > div:first-child{
+    margin: 30px 0;
+    text-align: center;
+}
