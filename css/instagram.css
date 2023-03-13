@@ -43,3 +43,62 @@ form > div:first-child{
     margin: 30px 0;
     text-align: center;
 }
+section > div > form > button{
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color: #70c4f0;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+form > div:last-of-type{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    color:#9b9b9b ;
+    padding-top: 10px;
+    font-size: 13px;
+}
+form > div:last-of-type > span{
+    border-top:1px solid  #dadde1;
+    flex: 1;
+    position: relative;
+    top: 10px;
+}
+form > span {
+    display: flex;
+    justify-content: center;
+    color: #385185;
+    margin-top: 20px;
+    font-weight: 550;
+}
+form > span:hover{
+    cursor: pointer;
+}
+form > a{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    padding-top: 20px;
+    color: #6989a8;
+}
+form > a:hover{
+    cursor: pointer;
+}
+section > div:nth-child(2){
+    border: 1px solid #dddfe2;
+    padding: 25px 85px;
+}
+section > div:nth-child(2) > div{
+    font-size: 14px;
+}
+
+section > div:nth-child(2) > div > a{
+    color: #0095f6;
+    font-weight: 600;
+}
+section > div:nth-child(2) > div > a:hover{
+    cursor: pointer;
+}
